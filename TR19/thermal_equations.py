@@ -66,7 +66,7 @@ class NTU:
         return effect
 
     def calc_heat_loss(self):
-        q = self.calc_effect * self.   
+        q = self.calc_effect * self.q_max
         self.add_2_temp_data(name='Actual Heat Transfer', data=q)
         return q
 
